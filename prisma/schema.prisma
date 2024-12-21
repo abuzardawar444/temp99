@@ -44,6 +44,8 @@ model Property {
   favorites  Favorite[]
 }
 
+// commit
+
 model Favorite {
   id        String   @id @default(uuid()) @map("_id")
   createdAt DateTime @default(now())
